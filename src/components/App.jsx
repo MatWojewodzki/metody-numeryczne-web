@@ -1,12 +1,12 @@
 import 'katex/dist/katex.min.css'
 
 
-import Header from './components/Header';
-import Introduction from './components/Introduction';
-import TheorySection from './components/TheorySection';
-import SpreadsheetSection from './components/SpreadsheetSection';
-import CodeSection from './components/CodeSection';
-import Footer from './components/Footer';
+import Header from './Header';
+import Introduction from './Introduction';
+import TheorySection from './TheorySection';
+import SpreadsheetSection from './SpreadsheetSection';
+import CodeSection from './CodeSection';
+import Footer from './Footer';
 
 
 function App() {
