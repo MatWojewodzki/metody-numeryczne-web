@@ -13,27 +13,25 @@ def g(x):
 def h(x):
     return f(x) - g(x)
 
-root1, root2 = fsolve(h, [0, 1])
+root1, root2 = fsolve(h, [0, 3.14])
 area, _ = quad(lambda x: abs(f(x) - g(x)), root1, root2)
 
-print(f"Punkty przecięcia: x1 = {root1}, x2 = {root2}")
-print(f"Pole między krzywymi: {area}")
+print(f"Punkty przeciecia: x1 = {root1}, x2 = {root2}")
+print(f"Pole miedzy krzywymi: {area}")
 x_vals = np.linspace(root1 - 1, root2 + 1, 500)
 f_vals = f(x_vals)
 g_vals = g(x_vals)
 
-plt.plot(x_vals, f_vals, label="x^2")
-plt.plot(x_vals, g_vals, label="sin(x)")
+plt.plot(x_vals, f_vals, label="$x^2$")
+plt.plot(x_vals, g_vals, label="$sin(x)$")
 plt.fill_between(x_vals, f_vals, g_vals, where=(f_vals <= g_vals), color='blue', alpha=0.5)
 
 plt.legend()
 plt.grid()
-plt.title("Pole między funkcjami f(x) = x^2 i g(x) = sin(x)")
+plt.title("Pole miedzy funkcjami $f(x) = x^2$ i $g(x) = sin(x)$")
 plt.xlabel("x")
 plt.ylabel("y")
-plt.savefig("poleMiedzyWykresami.png")
-plt.show()
-`
+plt.savefig("poleMiedzyWykresami.png")`
 
 export const CPP_CODE = String.raw`#include <iostream>
 #include <cmath>
@@ -81,16 +79,16 @@ double rectangle_method(double a, double b, int n) {
 int main() {
     
     double root1 = 0;  
-    double root2 = bisect(0, 1.0);  
+    double root2 = bisect(0, 3.14);  
 
    
     cout << fixed << setprecision(6);
-    cout << "Punkty przecięcia: x1 = " << root1 << ", x2 = " << root2 << endl;
+    cout << "Punkty przeciecia: x1 = " << root1 << ", x2 = " << root2 << endl;
 
     int num_rectangles = 1000; 
     double area = rectangle_method(root1, root2, num_rectangles);
 
-    cout << "Pole między funkcjami: " << area << endl;
+    cout << "Pole miedzy funkcjami: " << area << endl;
 
     return 0;
 }`
@@ -127,9 +125,9 @@ FUNCTION main():
     root1 = 0
     root2 = bisect(0, 1.0)
 
-    PRINT "Punkty przecięcia: x1 = ", root1, ", x2 = ", root2
+    PRINT "Punkty przeciecia: x1 = ", root1, ", x2 = ", root2
 
     num_rectangles = 1000
     area = rectangle_method(root1, root2, num_rectangles)
 
-    PRINT "Pole między funkcjami: ", area`
+    PRINT "Pole miedzy funkcjami: ", area`

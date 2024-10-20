@@ -6,6 +6,7 @@ import Introduction from './Introduction';
 import TheorySection from './TheorySection';
 import SpreadsheetSection from './SpreadsheetSection';
 import CodeSection from './CodeSection';
+import Animations from './Animations';
 import Footer from './Footer';
 
 

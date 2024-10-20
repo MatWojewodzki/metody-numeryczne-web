@@ -15,9 +15,9 @@ const CodeBlock = ({ language, filename, children }) => {
   }
 
   return (
-    <div className='bg-[#14181E] rounded-lg my-5'>
+    <div className='bg-[#14181E] rounded-lg my-10'>
       <div className='py-3 mx-6 flex justify-between'>
-        <p className='text-stone-300'>
+        <p className='text-stone-300 mx-2'>
           {filename}
         </p>
         <div>
