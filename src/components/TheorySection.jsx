@@ -45,12 +45,12 @@ const TheorySection = () => {
         w którym <InlineMath>n</InlineMath> jest liczbą podprzedziałow o długości <InlineMath>h</InlineMath>.
       </p>
       <img
-        className="mx-auto my-2"
+        className="mx-auto my-3"
         src="./calka.gif"
         alt="całka"
       />
       <iframe
-        className='w-full h-[600px] rounded-md my-2'
+        className='w-full h-[600px] rounded-md my-3'
         src="https://www.geogebra.org/classic/jdpqexj5?embed"
         alt="całka w geogebrze"
       />
