@@ -31,7 +31,7 @@ const TheorySection = () => {
         Metoda bisekcji opiera się na <b>twierdzeniu Darboux</b>: Jeżeli funkcja ciągła <InlineMath math={String.raw`\displaystyle f(x)`} /> ma na końcach przedziału domkniętego wartości różnych znaków, to wewnątrz tego przedziału, istnieje co najmniej jeden pierwiastek równania <InlineMath math={String.raw`\displaystyle f(x)=0`} />.
       </p>
       <img
-        className="mx-auto my-3"
+        className="mx-auto my-3 rounded-sm"
         src='./bisekcja.gif'
       />
       <p className="mt-8">
@@ -45,7 +45,7 @@ const TheorySection = () => {
         w którym <InlineMath>n</InlineMath> jest liczbą podprzedziałow o długości <InlineMath>h</InlineMath>.
       </p>
       <img
-        className="mx-auto my-3"
+        className="mx-auto my-3 rounded-sm"
         src="./calka.gif"
         alt="całka"
       />
