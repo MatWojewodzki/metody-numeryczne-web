@@ -33,7 +33,7 @@ const CodeSection = () => {
             {PYTHON_OUTPUT}
           </CodeBlock>
           <img
-            className='mx-auto'
+            className='mx-auto rounded-md'
             alt='Wykres przedstawiający pole między wykresami funkcji'
             src='./poleMiedzyWykresami.png'
           />

@@ -31,10 +31,10 @@ const TheorySection = () => {
         Metoda bisekcji opiera się na <b>twierdzeniu Darboux</b>: Jeżeli funkcja ciągła <InlineMath math={String.raw`\displaystyle f(x)`} /> ma na końcach przedziału domkniętego wartości różnych znaków, to wewnątrz tego przedziału, istnieje co najmniej jeden pierwiastek równania <InlineMath math={String.raw`\displaystyle f(x)=0`} />.
       </p>
       <img
-        className="mx-auto my-3 rounded-sm"
+        className="mx-auto my-5 rounded-md"
         src='./bisekcja.gif'
       />
-      <p className="mt-8">
+      <p className="mt-16">
         <b>Całkowanie numeryczne</b>, często zwane kwadraturą, polega na przybliżonym obliczniu całek oznaczonych.
       </p>
       <p>
@@ -45,12 +45,12 @@ const TheorySection = () => {
         w którym <InlineMath>n</InlineMath> jest liczbą podprzedziałow o długości <InlineMath>h</InlineMath>.
       </p>
       <img
-        className="mx-auto my-3 rounded-sm"
+        className="mx-auto my-5 rounded-md"
         src="./calka.gif"
         alt="całka"
       />
       <iframe
-        className='w-full h-[600px] rounded-md my-3'
+        className='w-full h-[600px] rounded-md my-5'
         src="https://www.geogebra.org/classic/jdpqexj5?embed"
         alt="całka w geogebrze"
       />
