@@ -44,6 +44,21 @@ const TheorySection = () => {
       <p>
         w którym <InlineMath>n</InlineMath> jest liczbą podprzedziałow o długości <InlineMath>h</InlineMath>.
       </p>
+      <p className='mt-3'>Metoda ta ma trzy warianty:</p>
+      <ol className='list-decimal list-inside ps-3'>
+        <li>
+          gdy <InlineMath math={String.raw`\alpha =0`} />,
+        </li>
+        <li>
+          gdy <InlineMath math={String.raw`\alpha ={\tfrac {1}{2}}`} /> (najdokładniejszy sposób),
+        </li>
+        <li>
+          gdy <InlineMath math={String.raw`\alpha =1`} />.
+        </li>
+      </ol>
+      <p>
+        Istnieje również wariant ogólny <InlineMath math={String.raw`\alpha \in [0,\,1]`} />.
+      </p>
       <img
         className="mx-auto my-5 rounded-md"
         src="./calka.gif"
@@ -61,7 +76,7 @@ const TheorySection = () => {
 export default TheorySection;
 
 // Metoda ta ma trzy warianty:
-// 1. gdy {\displaystyle \alpha =0,}
+// 1. 
 // 2. gdy {\displaystyle \alpha ={\tfrac {1}{2}}} (najdokładniejszy sposób)
 // 3. gdy {\displaystyle \alpha =1.}
-// Istnieje również wariant ogólny {\displaystyle \alpha \in [0,\,1].}'
+// 
