@@ -5,8 +5,8 @@ const TheorySection = () => {
   return (
     <Section title={'Teoria matematyczna użyta to rozwiązania zadania'}>
       <p>
-      Metodą <b>bisekcji</b> jesteśmy w stanie określić punkt przecięcia funkcji ciągłej <InlineMath>f(x)</InlineMath> z osią <InlineMath>OX</InlineMath> w danym przedziale. 
-      Przebieg algorytmu:
+        Metodą <b>bisekcji</b> jesteśmy w stanie określić punkt przecięcia funkcji ciągłej <InlineMath>f(x)</InlineMath> z osią <InlineMath>OX</InlineMath> w danym przedziale.
+        Przebieg algorytmu:
       </p>
       <ol className='list-decimal list-inside my-2 ps-3'>
         <li>
@@ -40,7 +40,9 @@ const TheorySection = () => {
       <p>
         Najprostsza z metod kwadraturowych polega na zastosowaniu wzoru:
       </p>
-      <BlockMath math={String.raw`{\displaystyle \int _{x_{0}}^{x_{n}}\!\!f(x)\approx h\sum _{i=0}^{n-1}f(x_{i}+\alpha h),\quad h={\tfrac {x_{n}-x_{0}}{n}},}`} />
+      <div className="text-xl">
+        <BlockMath math={String.raw`{\displaystyle \int _{x_{0}}^{x_{n}}\!\!f(x)\approx h\sum _{i=0}^{n-1}f(x_{i}+\alpha h),\quad h={\tfrac {x_{n}-x_{0}}{n}},}`} />
+      </div>
       <p>
         w którym <InlineMath>n</InlineMath> jest liczbą podprzedziałow o długości <InlineMath>h</InlineMath>.
       </p>
@@ -76,7 +78,7 @@ const TheorySection = () => {
 export default TheorySection;
 
 // Metoda ta ma trzy warianty:
-// 1. 
+// 1.
 // 2. gdy {\displaystyle \alpha ={\tfrac {1}{2}}} (najdokładniejszy sposób)
 // 3. gdy {\displaystyle \alpha =1.}
 // 
