@@ -1,7 +1,7 @@
 
-const Section = ({ title, children }) => {
+const Section = ({ title, sectionStyles = 'mb-20', children }) => {
   return (
-    <section className='mb-20'>
+    <section className={sectionStyles}>
         <h2 className='text-2xl font-semibold mb-8'>
             {title}
         </h2>
