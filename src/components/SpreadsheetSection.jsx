@@ -7,13 +7,13 @@ const SpreadsheetSection = () => {
             <iframe
                 className='w-full h-[600px] my-4 rounded-md'
                 frameborder="0"
-                src="https://gpe-my.sharepoint.com/personal/barkasy38_edu_gdansk_pl/_layouts/15/Doc.aspx?sourcedoc={6699c1e9-99da-4463-95aa-b8501af94aa0}&action=embedview&wdAllowInteractivity=False&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True">
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQVZYPeIOH0Cd0OpG-eBt0494HKuvIbKHmMyQzo9dy3CN3fWoMOWOj6RiZt0BsxvbWMobhwgz6Ne8gS/pubhtml?widget=true&amp;headers=false">
             </iframe>
             <p className="ps-2">Całka:</p>
             <iframe
                 className='w-full h-[600px] my-4 rounded-md'
                 frameborder="0"
-                src="https://gpe-my.sharepoint.com/personal/barkasy38_edu_gdansk_pl/_layouts/15/Doc.aspx?sourcedoc={b9a934a6-f016-45b0-aadb-23ae8565e69d}&action=embedview&wdAllowInteractivity=False&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True">
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSc3WQSkFw31GOoeYVvNlF0jMSEbDlCFdRFVTUBLInrVSXXWOJqDY2CmNNCAH75psTYvjAgNLQ7QBnD/pubhtml?widget=true&amp;headers=false">
             </iframe>
         </Section>
     );
