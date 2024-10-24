@@ -61,11 +61,9 @@ const TheorySection = () => {
       <p>
         Istnieje również wariant ogólny <InlineMath math={String.raw`\alpha \in [0,\,1]`} />.
       </p>
-      <img
-        className="mx-auto my-5 rounded-md"
-        src="./calka.gif"
-        alt="całka"
-      />
+      <video className='mx-auto my-5 rounded-md' controls>
+        <source src='./calka.mp4' type='video/mp4' />
+      </video>
       <iframe
         className='w-full h-[600px] rounded-md my-5'
         src="https://www.geogebra.org/classic/jdpqexj5?embed"
@@ -76,9 +74,3 @@ const TheorySection = () => {
 }
 
 export default TheorySection;
-
-// Metoda ta ma trzy warianty:
-// 1.
-// 2. gdy {\displaystyle \alpha ={\tfrac {1}{2}}} (najdokładniejszy sposób)
-// 3. gdy {\displaystyle \alpha =1.}
-// 
